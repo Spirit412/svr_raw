@@ -1,10 +1,7 @@
 <?php
 
 
-namespace Svr\Raw\Tests\Unit;
 
-use CreateAdminTables;
-use CreateTestTables;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\DB;

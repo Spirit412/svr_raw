@@ -1,6 +1,5 @@
 <?php
 
-namespace Svr\Raw\Tests\Unit;
 
 use OpenAdminCore\Admin\Auth\Database\Administrator;
 use Svr\Raw\Tests\TestCase;
