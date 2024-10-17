@@ -34,7 +34,7 @@ $ php artisan migrate --path=vendor/svr/raw/database/migrations
 
 Пример
 ```
-$ php artisan db:seed --class=db:seed db:seed --class=Svr\Raw\Seeders\RawSeeders
+$ php artisan db:seed --class=Svr\Raw\Seeders\RawSeeders
 ```
 
 Запустит следующие три сида:
