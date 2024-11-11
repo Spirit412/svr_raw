@@ -23,7 +23,7 @@
             "Svr\\Raw\\Seeders\\": "database/seeders/",
             "Svr\\Raw\\Tests\\": "tests/",
             "Svr\\Raw\\Tests\\Unit\\": "tests/Unit/",
-            "Svr\\Raw\\Exceptions\\\\": "src/Exceptions/",
+            "Svr\\Raw\\Exceptions\\": "src/Exceptions/",
             "Svr\\Raw\\Resources\\": "src/Resources/"
         }
     },
