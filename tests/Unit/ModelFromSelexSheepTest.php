@@ -5,6 +5,7 @@ namespace Svr\Raw\Tests\Unit;
 use Tests\TestCase;
 use Svr\Raw\Models\FromSelexSheep;
 use Illuminate\Support\Facades\Schema;
+use PHPUnit\Framework\Attributes\Test;
 
 class ModelFromSelexSheepTest extends TestCase
 {
@@ -14,6 +15,7 @@ class ModelFromSelexSheepTest extends TestCase
      *
      * @return void
      */
+    #[Test]
     public function testFromSelexSheepTableHasExpectedColumns()
     {
         echo "testFromSelexSheepTableHasExpectedColumns - Тест структуры таблицы в БД относительно модели.\n Таблица в БД должна соответствовать модели";

@@ -9,6 +9,9 @@
         <testsuite name="all">
             <directory suffix="Test.php">./tests/Unit</directory>
         </testsuite>
+        <testsuite name="test-dev">
+            <file>./tests/Unit/FromSelexMilkRulesTest.php</file>
+        </testsuite>
     </testsuites>
         <source>
         <include>

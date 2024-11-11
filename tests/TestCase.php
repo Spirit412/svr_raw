@@ -7,6 +7,7 @@ use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
 use Laravel\BrowserKitTesting\TestCase as BaseTestCase;
+use PHPUnit\Framework\Attributes\DataProvider;
 
 class TestCase extends BaseTestCase
 {

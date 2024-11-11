@@ -5,6 +5,7 @@ namespace Svr\Raw\Tests\Unit;
 use Tests\TestCase;
 use Svr\Raw\Models\FromSelexBeef;
 use Illuminate\Support\Facades\Schema;
+use PHPUnit\Framework\Attributes\Test;
 
 class ModelFromSelexBeefTest extends TestCase
 {
@@ -14,9 +15,11 @@ class ModelFromSelexBeefTest extends TestCase
      *
      * @return void
      */
+    #[Test]
     public function testFromSelexBeefTableHasExpectedColumns()
     {
         echo "testFromSelexBeefTableHasExpectedColumns - Тест структуры таблицы в БД относительно модели.\n Таблица в БД должна соответствовать модели";
+
         $dmodel= new FromSelexBeef();
 
         $columns = Schema::getColumns($dmodel->getTable());
